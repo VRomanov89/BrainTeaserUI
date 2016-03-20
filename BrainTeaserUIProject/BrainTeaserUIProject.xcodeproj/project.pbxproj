@@ -12,9 +12,12 @@
 		63E3D64D1C9F15110094DE2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63E3D64B1C9F15110094DE2F /* Main.storyboard */; };
 		63E3D64F1C9F15110094DE2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63E3D64E1C9F15110094DE2F /* Assets.xcassets */; };
 		63E3D6521C9F15110094DE2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63E3D6501C9F15110094DE2F /* LaunchScreen.storyboard */; };
+		8F9B94B57CEE914B72F22CA3 /* libPods-BrainTeaserUIProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4438B27F5432E9D98559BD5B /* libPods-BrainTeaserUIProject.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4438B27F5432E9D98559BD5B /* libPods-BrainTeaserUIProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BrainTeaserUIProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DD27648217168DEE6F469AE /* Pods-BrainTeaserUIProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrainTeaserUIProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-BrainTeaserUIProject/Pods-BrainTeaserUIProject.release.xcconfig"; sourceTree = "<group>"; };
 		63E3D6441C9F15110094DE2F /* BrainTeaserUIProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrainTeaserUIProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63E3D6471C9F15110094DE2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63E3D6491C9F15110094DE2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		63E3D64E1C9F15110094DE2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63E3D6511C9F15110094DE2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63E3D6531C9F15110094DE2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4A16572603209DA9CD15359 /* Pods-BrainTeaserUIProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrainTeaserUIProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BrainTeaserUIProject/Pods-BrainTeaserUIProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F9B94B57CEE914B72F22CA3 /* libPods-BrainTeaserUIProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1293395D64B3981DDBA60607 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D4A16572603209DA9CD15359 /* Pods-BrainTeaserUIProject.debug.xcconfig */,
+				4DD27648217168DEE6F469AE /* Pods-BrainTeaserUIProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		61CD9A353A02A86EBDA2332F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4438B27F5432E9D98559BD5B /* libPods-BrainTeaserUIProject.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		63E3D63B1C9F15100094DE2F = {
 			isa = PBXGroup;
 			children = (
 				63E3D6461C9F15110094DE2F /* BrainTeaserUIProject */,
 				63E3D6451C9F15110094DE2F /* Products */,
+				1293395D64B3981DDBA60607 /* Pods */,
+				61CD9A353A02A86EBDA2332F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63E3D6561C9F15110094DE2F /* Build configuration list for PBXNativeTarget "BrainTeaserUIProject" */;
 			buildPhases = (
+				D964C99E22D575E0225D6C5E /* Check Pods Manifest.lock */,
 				63E3D6401C9F15110094DE2F /* Sources */,
 				63E3D6411C9F15110094DE2F /* Frameworks */,
 				63E3D6421C9F15110094DE2F /* Resources */,
+				842C9C6F4F93C7D0A690D6DE /* Embed Pods Frameworks */,
+				FFD262B8BB183516050B832C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,6 +156,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		842C9C6F4F93C7D0A690D6DE /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BrainTeaserUIProject/Pods-BrainTeaserUIProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D964C99E22D575E0225D6C5E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FFD262B8BB183516050B832C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BrainTeaserUIProject/Pods-BrainTeaserUIProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		63E3D6401C9F15110094DE2F /* Sources */ = {
@@ -247,6 +322,7 @@
 		};
 		63E3D6571C9F15110094DE2F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4A16572603209DA9CD15359 /* Pods-BrainTeaserUIProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BrainTeaserUIProject/Info.plist;
@@ -258,6 +334,7 @@
 		};
 		63E3D6581C9F15110094DE2F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DD27648217168DEE6F469AE /* Pods-BrainTeaserUIProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BrainTeaserUIProject/Info.plist;
@@ -286,6 +363,7 @@
 				63E3D6581C9F15110094DE2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
