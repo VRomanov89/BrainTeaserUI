@@ -7,24 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2045636BDE7A15EEEEA74990 /* Pods_BrainTeaserUIProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73304584B2C504A253564EA3 /* Pods_BrainTeaserUIProject.framework */; };
+		638840D61C9F17200038F725 /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = 638840D51C9F17200038F725 /* test.m */; };
+		638840DA1C9F1BB10038F725 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638840D91C9F1BB10038F725 /* CustomTextField.swift */; };
+		638840DC1C9F29150038F725 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638840DB1C9F29150038F725 /* CustomButton.swift */; };
 		63E3D6481C9F15110094DE2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E3D6471C9F15110094DE2F /* AppDelegate.swift */; };
-		63E3D64A1C9F15110094DE2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E3D6491C9F15110094DE2F /* ViewController.swift */; };
+		63E3D64A1C9F15110094DE2F /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E3D6491C9F15110094DE2F /* LoginVC.swift */; };
 		63E3D64D1C9F15110094DE2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63E3D64B1C9F15110094DE2F /* Main.storyboard */; };
 		63E3D64F1C9F15110094DE2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63E3D64E1C9F15110094DE2F /* Assets.xcassets */; };
 		63E3D6521C9F15110094DE2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63E3D6501C9F15110094DE2F /* LaunchScreen.storyboard */; };
-		8F9B94B57CEE914B72F22CA3 /* libPods-BrainTeaserUIProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4438B27F5432E9D98559BD5B /* libPods-BrainTeaserUIProject.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4438B27F5432E9D98559BD5B /* libPods-BrainTeaserUIProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BrainTeaserUIProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DD27648217168DEE6F469AE /* Pods-BrainTeaserUIProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrainTeaserUIProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-BrainTeaserUIProject/Pods-BrainTeaserUIProject.release.xcconfig"; sourceTree = "<group>"; };
+		638840D41C9F17200038F725 /* BrainTeaserUIProject-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BrainTeaserUIProject-Bridging-Header.h"; sourceTree = "<group>"; };
+		638840D51C9F17200038F725 /* test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
+		638840D91C9F1BB10038F725 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		638840DB1C9F29150038F725 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		63E3D6441C9F15110094DE2F /* BrainTeaserUIProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrainTeaserUIProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63E3D6471C9F15110094DE2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		63E3D6491C9F15110094DE2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63E3D6491C9F15110094DE2F /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		63E3D64C1C9F15110094DE2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		63E3D64E1C9F15110094DE2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63E3D6511C9F15110094DE2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63E3D6531C9F15110094DE2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73304584B2C504A253564EA3 /* Pods_BrainTeaserUIProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrainTeaserUIProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4A16572603209DA9CD15359 /* Pods-BrainTeaserUIProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrainTeaserUIProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BrainTeaserUIProject/Pods-BrainTeaserUIProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -33,7 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F9B94B57CEE914B72F22CA3 /* libPods-BrainTeaserUIProject.a in Frameworks */,
+				2045636BDE7A15EEEEA74990 /* Pods_BrainTeaserUIProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,9 +59,26 @@
 		61CD9A353A02A86EBDA2332F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4438B27F5432E9D98559BD5B /* libPods-BrainTeaserUIProject.a */,
+				73304584B2C504A253564EA3 /* Pods_BrainTeaserUIProject.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		638840D71C9F1B8C0038F725 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				63E3D6491C9F15110094DE2F /* LoginVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		638840D81C9F1B950038F725 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				638840D91C9F1BB10038F725 /* CustomTextField.swift */,
+				638840DB1C9F29150038F725 /* CustomButton.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 		63E3D63B1C9F15100094DE2F = {
@@ -78,12 +102,15 @@
 		63E3D6461C9F15110094DE2F /* BrainTeaserUIProject */ = {
 			isa = PBXGroup;
 			children = (
+				638840D81C9F1B950038F725 /* View */,
+				638840D71C9F1B8C0038F725 /* Controller */,
 				63E3D6471C9F15110094DE2F /* AppDelegate.swift */,
-				63E3D6491C9F15110094DE2F /* ViewController.swift */,
 				63E3D64B1C9F15110094DE2F /* Main.storyboard */,
 				63E3D64E1C9F15110094DE2F /* Assets.xcassets */,
 				63E3D6501C9F15110094DE2F /* LaunchScreen.storyboard */,
 				63E3D6531C9F15110094DE2F /* Info.plist */,
+				638840D51C9F17200038F725 /* test.m */,
+				638840D41C9F17200038F725 /* BrainTeaserUIProject-Bridging-Header.h */,
 			);
 			path = BrainTeaserUIProject;
 			sourceTree = "<group>";
@@ -210,8 +237,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63E3D64A1C9F15110094DE2F /* ViewController.swift in Sources */,
+				638840DA1C9F1BB10038F725 /* CustomTextField.swift in Sources */,
+				63E3D64A1C9F15110094DE2F /* LoginVC.swift in Sources */,
 				63E3D6481C9F15110094DE2F /* AppDelegate.swift in Sources */,
+				638840D61C9F17200038F725 /* test.m in Sources */,
+				638840DC1C9F29150038F725 /* CustomButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,10 +355,13 @@
 			baseConfigurationReference = D4A16572603209DA9CD15359 /* Pods-BrainTeaserUIProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = BrainTeaserUIProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vromanov.BrainTeaserUIProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BrainTeaserUIProject/BrainTeaserUIProject-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -337,10 +370,12 @@
 			baseConfigurationReference = 4DD27648217168DEE6F469AE /* Pods-BrainTeaserUIProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = BrainTeaserUIProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vromanov.BrainTeaserUIProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BrainTeaserUIProject/BrainTeaserUIProject-Bridging-Header.h";
 			};
 			name = Release;
 		};
